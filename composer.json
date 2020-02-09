@@ -1,7 +1,9 @@
 {
     "name": "data-head/bydesign-seamless-auth",
     "description": "A package for laravel applications that facilitates seamless authentication between ByDesign and your application",
+    "keywords": ["laravel", "bydesign", "authentication"],
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Chandler Van Scoy",
@@ -15,6 +17,13 @@
     "autoload": {
         "psr-4": {
             "DataHead\\ByDesignSeamlessAuth\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DataHead\\ByDesignSeamlessAuth\\ByDesignSeamlessAuthServiceProvider"
+            ]
         }
     }
 }

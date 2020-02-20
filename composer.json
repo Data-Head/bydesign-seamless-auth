@@ -3,7 +3,7 @@
     "description": "A package for laravel applications that facilitates seamless authentication between ByDesign and your application",
     "keywords": ["laravel", "bydesign", "authentication"],
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Chandler Van Scoy",

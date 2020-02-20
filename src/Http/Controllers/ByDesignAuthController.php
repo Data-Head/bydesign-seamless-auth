@@ -59,7 +59,7 @@ class ByDesignAuthController extends Controller
             if($repInfo == null)
                 return \Response::redirectTo(config('bydesign-seamless-auth.failed_redirect_url'));
 
-            $user = User::where('rep_id', $repInfo->userName)->first();
+            $user = User::where('rep_id', $response->userName)->first();
 
             if($user != null) {
                 \Auth::login($user);
